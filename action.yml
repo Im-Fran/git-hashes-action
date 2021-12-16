@@ -1,0 +1,14 @@
+name: 'Git Hashes'
+description: 'Save the long and short form of the commit hashes in the environment variables'
+inputs:
+  long-form:
+    description: 'Should we save the long form of the commit hash?'
+    required: false
+    default: 'true'
+  short-form:
+    description: 'Should we save the short form of the commit hash?'
+    required: false
+    default: 'true'
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
