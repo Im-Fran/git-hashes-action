@@ -1,14 +1,22 @@
 {
   "name": "git-hashes-action",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Save the long and short form of the commit hashes in the environment variables",
   "main": "index.js",
-  "scripts": {},
-  "keywords": ["git", "commit", "hashes", "git commit", "action", "git hashes", "git-hashes-action"],
+  "keywords": [
+    "git",
+    "commit",
+    "hashes",
+    "git commit",
+    "action",
+    "git hashes",
+    "git-hashes-action"
+  ],
   "author": "Im-Fran",
   "license": "GPL-3.0-or-later",
   "dependencies": {
     "@actions/core": "^1.6.0",
     "@actions/github": "^5.0.0"
-  }
+  },
+  "packageManager": "yarn@3.2.4"
 }
