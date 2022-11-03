@@ -1,6 +1,6 @@
 {
   "name": "git-hashes-action",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Save the long and short form of the commit hashes in the environment variables",
   "main": "index.js",
   "keywords": [
